@@ -18,3 +18,6 @@
 
 # Sysinit
 /system/bin/sysinit                     u:object_r:sysinit_exec:s0
+
+# OTA packages
+/data/system_updates(/.*)?           u:object_r:ota_package_file:s0
