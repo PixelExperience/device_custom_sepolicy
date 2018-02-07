@@ -1,2 +1,7 @@
 # Allow NFC service to be found
 allow platform_app nfc_service:service_manager find;
+
+# OTA
+allow platform_app cache_file:dir { search write add_name };
+allow platform_app cache_recovery_file:dir { search write add_name };
+allow platform_app cache_recovery_file:file { create write open getattr setattr };
