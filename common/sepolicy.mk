@@ -1,13 +1,13 @@
 #
 # This policy configuration will be used by all products that
-# inherit from Lineage
+# inherit from Pixel Experience
 #
 
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    device/lineage/sepolicy/common/public
+    device/custom/sepolicy/common/public
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/lineage/sepolicy/common/private
+    device/custom/sepolicy/common/private
 
 BOARD_SEPOLICY_DIRS += \
-    device/lineage/sepolicy/common/vendor
+    device/custom/sepolicy/common/vendor
