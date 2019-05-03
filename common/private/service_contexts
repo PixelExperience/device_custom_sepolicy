@@ -1,1 +1,5 @@
 pocket                                    u:object_r:pocket_service:s0
+
+# LiveDisplay
+lineagehardware                           u:object_r:lineage_hardware_service:s0
+lineagelivedisplay                        u:object_r:lineage_livedisplay_service:s0
