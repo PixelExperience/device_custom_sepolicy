@@ -7,3 +7,6 @@ allow platform_app cache_recovery_file:dir rw_dir_perms;
 allow platform_app cache_recovery_file:file create_file_perms;
 allow platform_app ota_package_file:file create_file_perms;
 allow platform_app ota_package_file:dir rw_dir_perms;
+
+# Allow LiveDisplay HAL service to be found
+hal_client_domain(platform_app, hal_lineage_livedisplay)
