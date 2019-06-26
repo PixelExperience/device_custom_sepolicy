@@ -1,2 +1,5 @@
 # LiveDisplay
 hal_attribute(lineage_livedisplay)
+
+# FOD
+hal_attribute(lineage_fod)
