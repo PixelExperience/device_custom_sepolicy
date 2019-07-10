@@ -1,2 +1,5 @@
 # LiveDisplay
 hal_attribute(lineage_livedisplay)
+
+# HALs
+hal_attribute(lineage_camera_motor)
