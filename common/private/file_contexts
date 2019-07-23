@@ -24,3 +24,6 @@
 
 # OTA packages
 /data/system_updates(/.*)?           u:object_r:ota_package_file:s0
+
+# Themed bootanimation
+/system/media/bootanimation(.*)?\.zip                  u:object_r:bootanim_file:s0
