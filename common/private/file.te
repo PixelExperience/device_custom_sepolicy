@@ -1,3 +1,1 @@
 type sysfs_io_sched_tuneable, fs_type, sysfs_type;
-
-type pocket_judge_sysfs, fs_type, sysfs_type;
