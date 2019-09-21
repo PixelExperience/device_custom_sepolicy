@@ -1,1 +1,5 @@
 allow priv_app ota_package_file:dir create_dir_perms;
+
+# Ambient play
+get_prop(priv_app, ambient_play_prop)
+set_prop(priv_app, ambient_play_prop)

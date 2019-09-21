@@ -14,3 +14,7 @@ hal_client_domain(platform_app, hal_lineage_livedisplay)
 
 # Allow FOD HAL service to be found
 hal_client_domain(platform_app, hal_lineage_fod)
+
+# Ambient play
+get_prop(platform_app, ambient_play_prop)
+set_prop(platform_app, ambient_play_prop)
