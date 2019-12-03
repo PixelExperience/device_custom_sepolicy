@@ -1,2 +1,5 @@
 # Read and execute IOCTLs on OTA zip file at /data/ota_package/.
 allow uncrypt ota_package_file:file w_file_perms;
+
+# Fix OTA with encrypted F2FS userdata
+allow uncrypt self:capability { fowner sys_admin };
