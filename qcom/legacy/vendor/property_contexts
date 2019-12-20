@@ -1,3 +1,4 @@
 #Wifi
 vendor.wlan.driver.version       u:object_r:vendor_wifi_version:s0
 vendor.wlan.firmware.version     u:object_r:vendor_wifi_version:s0
+wifi.active.interface            u:object_r:wifi_prop:s0
