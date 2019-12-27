@@ -13,3 +13,8 @@ ifneq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 BOARD_SEPOLICY_DIRS += \
     device/custom/sepolicy/qcom/vendor
 endif
+
+ifeq (,$(filter sm6150 msmnile trinket, $(TARGET_BOARD_PLATFORM)))
+    BOARD_SEPOLICY_DIRS += \
+        device/custom/sepolicy/qcom/legacy/vendor
+endif
