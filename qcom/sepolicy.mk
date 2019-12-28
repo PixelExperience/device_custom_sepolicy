@@ -17,10 +17,10 @@ endif
 ifeq ($(TARGET_INCLUDE_WIFI_EXT),true)
     ifeq (,$(filter sm6150 msmnile trinket, $(TARGET_BOARD_PLATFORM)))
         BOARD_SEPOLICY_DIRS += \
-            device/custom/sepolicy/qcom/legacy/vendor
+            device/custom/sepolicy/qcom/wifi-ext/legacy-um
     endif
     ifneq (,$(filter sdm845 sdm710, $(TARGET_BOARD_PLATFORM)))
         BOARD_SEPOLICY_DIRS += \
-            device/custom/sepolicy/qcom/legacy/sdm845-platform
+            device/custom/sepolicy/qcom/wifi-ext/legacy
     endif
 endif
