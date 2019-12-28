@@ -14,7 +14,13 @@ BOARD_SEPOLICY_DIRS += \
     device/custom/sepolicy/qcom/vendor
 endif
 
-ifeq (,$(filter sm6150 msmnile trinket, $(TARGET_BOARD_PLATFORM)))
-    BOARD_SEPOLICY_DIRS += \
-        device/custom/sepolicy/qcom/legacy/vendor
+ifeq ($(TARGET_INCLUDE_WIFI_EXT),true)
+    ifeq (,$(filter sm6150 msmnile trinket, $(TARGET_BOARD_PLATFORM)))
+        BOARD_SEPOLICY_DIRS += \
+            device/custom/sepolicy/qcom/legacy/vendor
+    endif
+    ifneq (,$(filter sdm845 sdm710, $(TARGET_BOARD_PLATFORM)))
+        BOARD_SEPOLICY_DIRS += \
+            device/custom/sepolicy/qcom/legacy/sdm845-platform
+    endif
 endif
