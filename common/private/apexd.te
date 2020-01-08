@@ -1,0 +1,3 @@
+allow apexd {
+    sysfs_io_sched_tuneable
+}:file { setattr rw_file_perms };
