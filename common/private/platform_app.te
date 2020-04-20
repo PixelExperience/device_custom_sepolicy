@@ -7,6 +7,9 @@ hal_client_domain(platform_app, hal_lineage_fod)
 # Allow LiveDisplay HAL service to be found
 hal_client_domain(platform_app, hal_lineage_livedisplay)
 
+# Allow PowerShare HAL service to be found
+hal_client_domain(platform_app, hal_lineage_powershare)
+
 # OTA
 allow platform_app { cache_file cache_recovery_file }:dir create_dir_perms;
 allow platform_app { cache_file cache_recovery_file }:file create_file_perms;
