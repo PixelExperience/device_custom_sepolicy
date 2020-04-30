@@ -2,3 +2,4 @@ lineageglobalactions                      u:object_r:lineage_globalactions_servi
 lineagehardware                           u:object_r:lineage_hardware_service:s0
 lineagelivedisplay                        u:object_r:lineage_livedisplay_service:s0
 pocket                                    u:object_r:pocket_service:s0
+applock                                   u:object_r:applock_service:s0
