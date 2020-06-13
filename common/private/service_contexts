@@ -1,4 +1,2 @@
 lineagehardware                           u:object_r:lineage_hardware_service:s0
 lineagelivedisplay                        u:object_r:lineage_livedisplay_service:s0
-lineageperformance                        u:object_r:lineage_performance_service:s0
-profile                                   u:object_r:lineage_profile_service:s0
