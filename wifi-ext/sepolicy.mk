@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq (,$(filter sm6150 msmnile trinket, $(TARGET_BOARD_PLATFORM)))
+ifeq (,$(filter sm6150 atoll msmnile trinket, $(TARGET_BOARD_PLATFORM)))
 BOARD_SEPOLICY_DIRS += \
 	device/custom/sepolicy/wifi-ext/qcom/legacy
 endif
