@@ -1,2 +1,3 @@
 user=_app isPrivApp=true seinfo=platform name=org.lineageos.snap domain=snap_app type=app_data_file levelFrom=user
 user=_app isPrivApp=true seinfo=platform name=org.pixelexperience.ota domain=updater_app type=app_data_file levelFrom=user
+user=_app seinfo=platform name=com.google.android.flipendo domain=flipendo type=app_data_file levelFrom=all
