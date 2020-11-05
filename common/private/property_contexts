@@ -1,1 +1,3 @@
 ro.telephony.use_old_mnc_mcc_format    u:object_r:exported3_default_prop:s0
+# Legacy wfd
+persist.wfd.legacy.video.mode u:object_r:wfd_legacy_video_mode_prop:s0
