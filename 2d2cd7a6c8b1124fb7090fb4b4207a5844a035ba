@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ca3d148_8a212971",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000468
+      },
+      "writtenOn": "2021-03-08T22:37:03Z",
+      "side": 1,
+      "message": "I\u0027d honestly make a squash commit of all these with new change-id - as I will be in the next possible rebase (19.0)",
+      "revId": "2d2cd7a6c8b1124fb7090fb4b4207a5844a035ba",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
