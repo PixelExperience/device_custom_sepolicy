@@ -9,11 +9,11 @@ TARGET_USES_PREBUILT_VENDOR_SEPOLICY ?= true
 endif
 endif
 
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/custom/sepolicy/qcom/private
 
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/custom/sepolicy/qcom/dynamic \
     device/custom/sepolicy/qcom/system
 else
