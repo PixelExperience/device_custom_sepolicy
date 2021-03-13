@@ -1,3 +1,4 @@
 lineagehardware                           u:object_r:lineage_hardware_service:s0
 lineagelivedisplay                        u:object_r:lineage_livedisplay_service:s0
 pocket                                    u:object_r:pocket_service:s0
+dc_dim_service                            u:object_r:dc_dimming_service:s0

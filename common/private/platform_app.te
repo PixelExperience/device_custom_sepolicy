@@ -13,6 +13,9 @@ hal_client_domain(platform_app, hal_lineage_livedisplay)
 # Allow PowerShare HAL service to be found
 hal_client_domain(platform_app, hal_lineage_powershare)
 
+# DC Dimming
+allow platform_app vendor_sysfs_dc_dim:file rw_file_perms;
+
 # OTA
 allow platform_app { cache_file cache_recovery_file }:dir create_dir_perms;
 allow platform_app { cache_file cache_recovery_file }:file create_file_perms;
