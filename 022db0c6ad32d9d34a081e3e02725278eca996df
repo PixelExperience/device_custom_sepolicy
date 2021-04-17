@@ -16,6 +16,24 @@
       "message": "What\u0027s the issue exactly? Screenshot sound seems to be fine here.",
       "revId": "022db0c6ad32d9d34a081e3e02725278eca996df",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d76c238_9f3c6e60",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000411
+      },
+      "writtenOn": "2021-04-17T04:23:03Z",
+      "side": 1,
+      "message": "screenshot (w/ sound) is here fine too, it\u0027s just this denial pops up in logs every time when screenshot is taken :\\",
+      "parentUuid": "919eead6_c2288a05",
+      "revId": "022db0c6ad32d9d34a081e3e02725278eca996df",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
