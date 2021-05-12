@@ -25,9 +25,15 @@ ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/custom/sepolicy/common/dynamic \
     device/custom/sepolicy/common/system
+
+ifneq ($(TARGET_HAL_POWER_RW_INPUT_DEVICE), true)
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+    device/custom/sepolicy/common/dynamic_extra
+endif
 else
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/custom/sepolicy/common/dynamic \
+    device/custom/sepolicy/common/dynamic_extra \
     device/custom/sepolicy/common/vendor
 endif
 

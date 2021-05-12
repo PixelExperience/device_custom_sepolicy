@@ -1,0 +1,2 @@
+# To find and call hal_power_default so turbo can obtain the service extension (IPowerExt)
+hal_client_domain(turbo_adapter, hal_power)

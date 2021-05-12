@@ -1,0 +1,2 @@
+# Access to PowerHal service
+hal_client_domain(flipendo, hal_power);
