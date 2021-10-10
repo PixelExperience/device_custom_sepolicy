@@ -11,10 +11,10 @@ endif
 
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
-    device/lineage/sepolicy/mediatek/dynamic \
-    device/lineage/sepolicy/mediatek/system
+    device/custom/sepolicy/mediatek/dynamic \
+    device/custom/sepolicy/mediatek/system
 else
 BOARD_VENDOR_SEPOLICY_DIRS += \
-    device/lineage/sepolicy/mediatek/dynamic \
-    device/lineage/sepolicy/mediatek/vendor
+    device/custom/sepolicy/mediatek/dynamic \
+    device/custom/sepolicy/mediatek/vendor
 endif
