@@ -4,3 +4,6 @@ vendor.camera.aux.packagelist          u:object_r:exported_system_prop:s0
 
 # Radio
 ro.telephony.use_old_mnc_mcc_format    u:object_r:telephony_config_prop:s0
+
+# Wi-Fi Display
+media.wfd.                             u:object_r:media_wfd_prop:s0
