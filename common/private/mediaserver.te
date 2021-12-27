@@ -1,0 +1,3 @@
+# Allow mediaserver to get wfd max_resolution property
+get_prop(mediaserver, wfd_maxres_video_prop);
+allow mediaserver package_native_service:service_manager { find };
