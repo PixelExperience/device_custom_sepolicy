@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "25cfa579_9fc0b300",
+        "filename": "common/private/mediaserver.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2021-12-31T13:57:09Z",
+      "side": 1,
+      "message": "Not needed. It works for me without this line",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 66
+      },
+      "revId": "155adf8ebb238047119fc28396c35ce979ed245e",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7670097e_6be1f1e3",
+        "filename": "common/private/property_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2021-12-31T13:57:09Z",
+      "side": 1,
+      "message": "let\u0027s include other media.wfd props as well",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 24
+      },
+      "revId": "155adf8ebb238047119fc28396c35ce979ed245e",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
