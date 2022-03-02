@@ -16,6 +16,24 @@
       "message": "What camera? Normal app launch or what? Why is it inside qcom/common? Is it qcom specific? Why is gcam involved in the avc?",
       "revId": "68f1144efcea7396ccd5cd62ca56a15e3d17020e",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "85f6953a_cc1bef55",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000166
+      },
+      "writtenOn": "2022-03-02T16:17:47Z",
+      "side": 1,
+      "message": "It\u0027s gcam itself, I\u0027ve seen on 2 devices, which are qcom. After some opennings, app stop and breaks due this denial, maybe commit message won\u0027t express in a right way. \nAnyway, can be added per device side, but how we have many devices shipping gcam I\u0027ve picked in custom sepolicy",
+      "parentUuid": "c3600271_3cf4cef4",
+      "revId": "68f1144efcea7396ccd5cd62ca56a15e3d17020e",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
