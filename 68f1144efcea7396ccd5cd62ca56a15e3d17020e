@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3600271_3cf4cef4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2022-03-02T12:17:44Z",
+      "side": 1,
+      "message": "What camera? Normal app launch or what? Why is it inside qcom/common? Is it qcom specific? Why is gcam involved in the avc?",
+      "revId": "68f1144efcea7396ccd5cd62ca56a15e3d17020e",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
