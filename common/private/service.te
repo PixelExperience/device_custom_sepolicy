@@ -2,3 +2,6 @@ type lineage_hardware_service, system_api_service, system_server_service, servic
 type lineage_livedisplay_service, system_api_service, system_server_service, service_manager_type;
 type pocket_service, system_api_service, system_server_service, service_manager_type;
 type custom_globalactions_service, system_api_service, system_server_service, service_manager_type;
+
+# Linearmotor Vibrator
+type linearmotor_vibrator_service, system_api_service, system_server_service, service_manager_type;
