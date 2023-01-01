@@ -1,4 +1,5 @@
 lineagehardware                           u:object_r:lineage_hardware_service:s0
+lineagehealth                             u:object_r:lineage_health_interface_service:s0
 lineagelivedisplay                        u:object_r:lineage_livedisplay_service:s0
 pocket                                    u:object_r:pocket_service:s0
 customglobalactions                       u:object_r:custom_globalactions_service:s0
