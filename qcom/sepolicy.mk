@@ -20,6 +20,15 @@ else
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/custom/sepolicy/qcom/dynamic \
     device/custom/sepolicy/qcom/vendor
+
+TARGET_EXCLUDE_QCOM_SEPOLICY ?= false
+ifeq ($(TARGET_EXCLUDE_QCOM_SEPOLICY),true)
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    device/custom/sepolicy/qcom/vendor-perf
+else
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    device/custom/sepolicy/qcom/vendor-perf-qcom
+endif
 endif
 
 ifneq ($(filter msm8960 msm8226 msm8610 msm8974 apq8084 msm8909 msm8916 msm8952 msm8992 msm8994,$(TARGET_BOARD_PLATFORM)),)
