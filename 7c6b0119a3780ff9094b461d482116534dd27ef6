@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b417c319_ef71ed46",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000166
+      },
+      "writtenOn": "2023-06-22T18:50:39Z",
+      "side": 1,
+      "message": "device/custom/sepolicy/qcom/vendor/hal_perf_default.te:1:ERROR \u0027unknown type vendor_hal_perf_default\u0027 at token \u0027;\u0027 on line 128418:",
+      "revId": "7c6b0119a3780ff9094b461d482116534dd27ef6",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
