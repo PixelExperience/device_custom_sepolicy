@@ -34,6 +34,24 @@
       "parentUuid": "b417c319_ef71ed46",
       "revId": "7c6b0119a3780ff9094b461d482116534dd27ef6",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "977be30c_8b148640",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000166
+      },
+      "writtenOn": "2023-06-23T10:44:41Z",
+      "side": 1,
+      "message": "This one happened building beckham, using sepolicy-legacy-um. I guess I did a build for berlin, which uses vndr_legacy-um and it didn\u0027t fail. But I\u0027ll check that again",
+      "parentUuid": "6e1c1fab_646395c4",
+      "revId": "7c6b0119a3780ff9094b461d482116534dd27ef6",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
