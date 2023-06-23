@@ -52,6 +52,23 @@
       "parentUuid": "6e1c1fab_646395c4",
       "revId": "7c6b0119a3780ff9094b461d482116534dd27ef6",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "78442d66_1c96b4df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000358
+      },
+      "writtenOn": "2023-06-23T11:27:02Z",
+      "side": 1,
+      "message": "Yes that is the point. It only breaks for legacy-um for some reason. Will there be any way of removing that conditionally?",
+      "revId": "7c6b0119a3780ff9094b461d482116534dd27ef6",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
