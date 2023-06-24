@@ -5,8 +5,8 @@ vendor.camera.aux.packagelist          u:object_r:vendor_persist_camera_prop:s0
 # Radio
 ro.telephony.use_old_mnc_mcc_format    u:object_r:telephony_config_prop:s0
 
-# Wi-Fi Display
-media.wfd.                             u:object_r:media_wfd_prop:s0
+# Recovery touch
+ro.minui.default_touch_rotation        u:object_r:recovery_config_prop:s0
 
 # Themed Bootanimation dynamic colors
 persist.bootanim.color1     u:object_r:bootanim_system_prop:s0
