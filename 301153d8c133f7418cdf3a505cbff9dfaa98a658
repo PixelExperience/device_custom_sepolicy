@@ -16,6 +16,23 @@
       "message": "code quality too bad and adding \"vendor\" prefix or not should depend on the included policy defined in every BoardConfig",
       "revId": "301153d8c133f7418cdf3a505cbff9dfaa98a658",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "045cea68_be217bc4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000588
+      },
+      "writtenOn": "2023-07-17T17:47:52Z",
+      "side": 1,
+      "message": "Also this deviant operation could use BOARD_SEPOLICY_M4DEFS in device tree to set(https://android.googlesource.com/platform/system/sepolicy/+/master/README.md)\nFor pe code quality control, this should not be merged",
+      "revId": "301153d8c133f7418cdf3a505cbff9dfaa98a658",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
