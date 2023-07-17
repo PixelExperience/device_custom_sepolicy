@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "57c4e9f2_318881e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000588
+      },
+      "writtenOn": "2023-07-17T17:23:08Z",
+      "side": 1,
+      "message": "code quality too bad and adding \"vendor\" prefix or not should depend on the included policy defined in every BoardConfig",
+      "revId": "301153d8c133f7418cdf3a505cbff9dfaa98a658",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
