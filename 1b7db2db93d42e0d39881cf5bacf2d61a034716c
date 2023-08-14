@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf6a34c7_a7aff9b1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000166
+      },
+      "writtenOn": "2023-08-14T13:02:53Z",
+      "side": 1,
+      "message": "Remains there\nSELinux : avc:  denied  { find } for pid\u003d2383 uid\u003d10153 name\u003dvendor.google.google_battery.IGoogleBattery/default scontext\u003du:r:platform_app:s0:c512,c768 tcontext\u003du:object_r:default_android_service:s0 tclass\u003dservice_manager permissive\u003d0",
+      "revId": "1b7db2db93d42e0d39881cf5bacf2d61a034716c",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    }
+  ]
+}
