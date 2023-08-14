@@ -34,6 +34,24 @@
       "parentUuid": "cf6a34c7_a7aff9b1",
       "revId": "1b7db2db93d42e0d39881cf5bacf2d61a034716c",
       "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "465e32c0_6230d3fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000588
+      },
+      "writtenOn": "2023-08-14T13:35:43Z",
+      "side": 1,
+      "message": "\u003e Have you tried with this sir?https://gerrit.pixelexperience.org/c/vendor_aosp/+/26296\n\u003e From my side it\u0027s working\n\nI tested if it\u0027s working like below:\nI have a same device side patch but with:\nhttps://gerrit.pixelexperience.org/c/vendor_aosp/+/26296\nhttps://gerrit.pixelexperience.org/c/device_custom_sepolicy/+/26297\nit goes \"redefinition error\" which means it compiles and when I remove device side change and compile a full build then flash it, avc log is gone",
+      "parentUuid": "a2845a5b_e3a64336",
+      "revId": "1b7db2db93d42e0d39881cf5bacf2d61a034716c",
+      "serverId": "8ba0da3e-d57f-4bbe-ac74-faf358ba962a"
     }
   ]
 }
